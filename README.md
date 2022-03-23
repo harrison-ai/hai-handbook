@@ -28,7 +28,7 @@ We are at one with the [zen](https://peps.python.org/pep-0020/#the-zen-of-python
 
 ### Toolchain
 
-Python has many limitations outa-the-box.
+Python has many limitations out of the box.
 However, every line of python code generally runs the following gauntlet before being merged:
 
 ```
@@ -61,7 +61,7 @@ We sit precariously on both sides of the `pytorch` vs. `tensorflow` debate and h
 
 We manage hierarchical model configuration with `hydra`.
 
-Other key packages include `numpy`, `einops`, `boto3`, `scikit-learn`, `click`, `fire`, `matplotlib`, `opencv`, `pandas`, `plotly`, `pydicom` and `dunamai`.
+Other key packages include `numpy`, `einops`, `boto3`, `scikit-learn`, `tqdm`, `fire`, `matplotlib`, `Pillow`, `opencv`, `pandas`, `plotly`, `pydicom`, `jupyterbook` and `dunamai`.
 
 For compute jobs where `concurrent.futures` doesn't cut it, we pickup frameworks like `ray` and `dask` to get the job done.
 
@@ -91,6 +91,6 @@ We schedule jobs on the cluster using `slurm` and `ray`.
 
 ## Communications
 
-We run sprints from `JIRA` and land most (non-code) documentation in `Conflence`.
+We run sprints from `JIRA` and land most (non-code) documentation in `Confluence`.
 
 We're currently in Microsoft land using `Teams` and `Office365` for comms.
